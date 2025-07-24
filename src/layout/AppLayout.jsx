@@ -1,10 +1,13 @@
 // import LandingPage from '@/pages/LandingPage'
-import React from 'react'
-import LandingPage from '../pages/LandingPage'
+import { Outlet } from 'react-router-dom'
 function AppLayout() {
   return (
-    <div>AppLayout
-    <LandingPage/>
+    
+    <div>
+      <div className="grid-background">
+      
+    </div>
+      <Outlet />
     </div>
   )
 }
